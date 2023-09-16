@@ -1,0 +1,60 @@
+import numpy as np
+def insert(End_value,Start_value,value):
+  for i in range(End_value,Start_value,-1):
+    arr[i] = i - 1
+  arr[Start_value] = value
+arr = np.array([input(f"Enter Player {i+1} Name: ") for i in range (int(input("How Many Player are there: ")))])
+for x in range(len(arr)):
+  print(arr[x],end="")
+
+
+import numpy as np
+thislist = []
+length = int(input("How Many Player are there: "))
+value = input("Enter Value: ")
+index = int(input("Enter Index: "))
+arr = np.array(["" for i in range (length + 1)])
+
+#initializing Array
+for i in range(length):
+	arr[i] = input("How Many Player are there: ")
+
+#initializing List
+for i in range(length):
+	thislist.insert(i, arr[i])
+
+#Print Old Array
+print("Given Array = ",thislist)
+
+#Adding Index
+thislist.insert(index,value)
+
+#Initializing New Element in Array
+for i in range(4):
+	arr[i] = thislist[i]
+#Print New Array
+print(arr)
+
+
+
+import numpy as np
+thislist = []
+length = int(input("Enter Length: "))
+index = int(input("Enter Index: "))
+arr = np.array(["" for i in range (length)])
+#initializing Array
+for i in range(length):
+	arr[i] = input("Enter Array: ")
+#initializing List
+for i in range(length):
+	thislist.insert(i, arr[i])
+#Print Old Array
+print(thislist)
+#Removing Index
+thislist.pop(index)
+arr[length-1] = ""
+#Initializing New Element in Array
+for i in range(length-1):
+    arr[i] = thislist[i]
+#Print New Array
+print(arr)

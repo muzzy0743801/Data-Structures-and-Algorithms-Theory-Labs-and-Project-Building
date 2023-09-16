@@ -1,0 +1,14 @@
+import numpy as np
+thislist = []
+length = int(input("Enter Length: "))
+arr = np.array(["" for i in range (length+1)])
+
+#initializing Array
+for i in range(length):
+	arr[i] = input(f"Enter Element{i+1} : ")
+print(f"Your Given Array: [",end="")
+for i in range(length-1):
+	print("'",arr[i],"'",end=" ",sep="")
+print("'",arr[length-1],"']",sep="")
+arr[length] = input("Enter Number You want Append: ")
+print("Array After Appending Number: ",arr)

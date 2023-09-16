@@ -1,0 +1,77 @@
+stackA = ["","","","",""]
+stackB = ["","","","",""]
+top = [-1, -1]
+
+def pop(stack,val):
+  temp = ""
+  temp = stack[top[val]]
+  stack[top[val]] = ""
+  top[val] -= 1
+  return temp
+
+def push(stack,val,max,element):
+  top[val] += 1
+  stack[top[val]] = element
+  return
+
+def full(val,max):
+  if(top[val] == max):
+    return True
+  else:
+    return False
+
+def epmty(val):
+  if(top[val] == -1):
+    return True
+  else:
+    return False
+
+print("1.Push the following alphabets into the stack A:")
+for i in range(5):
+  checker = full(0,len(stackA))
+  if(checker == False):
+    push(stackA,0,len(stackA)-1,input(f"Enter Element {i}: "))
+  else:
+    print("Stack A is Full")
+print("Stack A: ",stackA)
+print("Stack B: ",stackB)
+print("\n2. Pop the fourth elements from the Stack A and push them into stack B.")
+for i in range(1):
+  checker = epmty(0)
+  if(checker == False):
+    temp = pop(stackA,0)
+  else:
+    print(f"Stack B become Empty After poping of {i} Element")
+  checker = full(1,len(stackB)-1)
+  if(checker == False):
+    push(stackB,1,len(stackB)-1,temp)
+  else:
+    print("Stack B is Full")
+print("Stack A: ",stackA)
+print("Stack B: ",stackB)
+print("\n3. Then Pop two elements from Stack B and push them back into stack A.")
+for i in range(2):
+  checker = epmty(1)
+  if(checker == False):
+    temp = pop(stackB,1)
+  else:
+      print("Stack A is Full")
+  checker = full(0,len(stackA)-1)
+  if(checker == False):
+    push(stackA,0,len(stackB)-1,temp)
+  else:
+    print(f"Stack B become Empty After poping of {i} Element")
+    break
+print("Stack A: ",stackA)
+print("Stack B: ",stackB)
+print("\n4. Now print the top most elements of Stack A and B")
+checker = epmty(0)
+if(checker == False):
+  print(pop(stackA,0))
+else:
+  print("Stack A is Empty")
+checker = epmty(1)
+if(checker == False):
+  print(pop(stackA,0))
+else:
+  print("Stack B is Empty")

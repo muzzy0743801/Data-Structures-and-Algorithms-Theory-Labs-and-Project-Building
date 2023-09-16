@@ -1,0 +1,25 @@
+def Push(array, top, max, item):
+    if(top == max):
+        print("Sorry :( Your Stack is Full")
+    else:
+        top[0] += 1
+        array[top[0]] = item
+def Pop(array, top):
+    item = 0
+    if(top[0] == -1):
+        print("Enter Elemet First")
+    else:
+        item = array[top[0]]
+        array[top[0]] = 0
+        top[0] -= 1
+        return item
+max = int(input("Enter Number Of Element: "))
+array = [0 for i in range(max)]
+top = [-1]
+Push(array,top, max-1, int(input("Enter Item: ")))
+Push(array,top, max-1, int(input("Enter Item: ")))
+Push(array,top, max-1, int(input("Enter Item: ")))
+print(array)
+item = Pop(array, top)
+if(item != 0):
+    print("Your Item is:",item)

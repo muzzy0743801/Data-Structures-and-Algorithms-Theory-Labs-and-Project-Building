@@ -1,0 +1,28 @@
+E:\Fourth Sem\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.exe
+E:\Fourth Sem\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.deps.json
+E:\Fourth Sem\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.runtimeconfig.json
+E:\Fourth Sem\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.runtimeconfig.dev.json
+E:\Fourth Sem\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.dll
+E:\Fourth Sem\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.pdb
+E:\Fourth Sem\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fourth Sem\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.AssemblyInfoInputs.cache
+E:\Fourth Sem\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.AssemblyInfo.cs
+E:\Fourth Sem\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.csproj.CoreCompileInputs.cache
+E:\Fourth Sem\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.dll
+E:\Fourth Sem\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.pdb
+E:\Fourth Sem\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.genruntimeconfig.cache
+E:\Fourth Sem\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.csproj.AssemblyReference.cache
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.exe
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.deps.json
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.runtimeconfig.json
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.runtimeconfig.dev.json
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.dll
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\bin\Debug\netcoreapp3.1\Tester.pdb
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.csproj.AssemblyReference.cache
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.AssemblyInfoInputs.cache
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.AssemblyInfo.cs
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.csproj.CoreCompileInputs.cache
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.dll
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.pdb
+C:\Users\muxxa\Downloads\DSA\Theory\Tester\Tester\obj\Debug\netcoreapp3.1\Tester.genruntimeconfig.cache

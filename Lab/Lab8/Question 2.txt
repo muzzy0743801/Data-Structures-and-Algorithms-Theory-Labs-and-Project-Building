@@ -1,0 +1,23 @@
+def Push(array, top, max, item):
+    if(top == max):
+        print("Sorry :( Your Stack is Full")
+    else:
+        top[0] += 1
+        array[top[0]] = item
+def Pop(array, top):
+    item = 0
+    if(top[0] == -1):
+        print("Enter Elemet First")
+    else:
+        for x in range(top[0],-1,-1):
+            print(array[top[0]],end="")
+            array[top[0]] = 0
+            top[0] -= 1
+max = int(input("Enter Number Of Element: "))
+array = [0 for i in range(max)]
+top = [-1]
+for i in range(max):
+    Push(array,top, max-1, input("Enter Item: "))
+print("Your Array in reverse Order is: ",end="")
+Pop(array, top)
+print()

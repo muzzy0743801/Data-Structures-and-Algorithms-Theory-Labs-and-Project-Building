@@ -1,0 +1,32 @@
+AVL Tree:
+---------
+deletion in avl tree:
+---------------------
+
+1. jis node ko hm delete kernay jaa rahay hein us k parent ki balanced value 0 hay or parent k left subtree say node ko delete ker rahay hein
+2. jis node ko hm delete kernay jaa rahay hein us k parent ki balanced value 0 hay or parent k right subtree say node ko delete ker rahay hein
+
+note : case 1 or 2 mein tree balanced rahay ga, to balanced kernay ki zaroorat nahein hay, sirf parent ki balanced value change ho ge
+
+3. jis node ko hm delete ker rahay hein us k parent ki balanced value 1 hay or parent k left sub tree say node ko delete ker raha hein
+4.jis node ko hm delete ker rahay hein us k parent ki balanced value -1 hay or parent k right sub tree say node ko delete ker raha hein
+
+note: case 3 or 4 mein tree balanced rahay ga, to balance kernay ki zaroorat nahein hay, sirf parent ki balances value update kerni ho ge, laikin parent k path mein ooper ki taraf nodes ki balances value dis balance ho sakti hay, us case mein ancestors nodes ko balance kerna parray ga
+
+
+5. jis node ko delete ker rahay hein us k parent ki balanced value -2 hay or node ko left subtree say he delete keya jaa raha hay
+
+note : case 5 mein parent ko left rotate karein gay, laikin agar single rotation say node balanced nahein ho rahi to phir double roation karein gay , pehlay c ko right rotate karein gay phir A ko left rotate karein gay
+
+6. jis node ko delete ker rahay hein us k parent ki balanced value 2 hay or node ko right subtree say he delete keya jaa raha hay
+
+note : case 6 mein parent ko right rotate karein gay, laikin agar single rotation say node balanced nahein ho rahi to phir double roation karein gay , pehlay c ko left rotate karein gay phir A ko right rotate karein gay
+
+7. jis node ko delete keya jaa raha hay us k parent ki balanced value -1 hay or parent k left subtree say node ko delete ker raha hon
+
+note: parent ko single left rotate karein gay
+
+
+8. jis node ko delete keya jaa raha hay us k parent ki balanced value 1 hay or parent k right subtree say node ko delete ker raha hon
+
+note: parent ko single right rotate karein gay

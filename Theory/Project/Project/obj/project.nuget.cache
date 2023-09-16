@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "8KDWH/l0KZXR4rCr4dkc1LX/Ke6s1SywBJDAS/PnXhOf9F8C0WIyT8izf6u6sfX/pnWRQBY2GpvqOdcKu3um0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\muxxa\\Downloads\\DSA\\Theory\\Project\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\muxxa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\muxxa\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\muxxa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\muxxa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,55 @@
+Hashing:
+--------
+-hashing bhi aik approach hay, aik technique data store,retrieve or search kernay ki
+-complexity constant hay kisi bhi operation k liye chahay aap k pass jitna bhi amount ka data ho
+-hashing aik function hota hay , us ko hm key value detay hein or wo us key value per aik number return kerta hay , wo number index hota hay 
+-for example, 
+modulo approach
+---------------
+h(x) = x mod n
+where x is a key value, n is a total number of memory locations
+
+x1=100
+x2=101
+x3=140
+h(100) = 100 mod 40 = 20
+h(101) = 101 mod 40 = 21
+h(140) = 140 mod 40 = 20
+
+h(ali) = ali mod 40 = 97+111+96 = 304 mod 40 = 24
+
+h(ali) = ali mod 40 = 97*5^0+111*5^1+96*5^2 = 1234 mod 40 = 35
+
+folding method:
+---------------
+42105-1234567-2
+234567 = 234,567 = 234+567 = 801   
+23,45,67 = 23+45+67 = 135
+1234567 = 1,3,5,7 = 1+3+5+7 = 16
+
+
+collision:
+----------
+
+1. rehashing
+2. use array locations a header of linked list of values that hash to this location
+3. linear probing/ clodes hash/open addressing
+
+(140+1) mod 40 = 21
+(140+2) mod 40 = 22
+(140+3) mod 40 = 23
+.
+.
+.
+.
+.
+(140+39) mod 40 = 39
+(140+40) mod 40 = 0 wrap around
+
+-agar saari sears full hon to is ka solution ye hay k aap seats ka izafa karein,
+-dusra solutoin ye hay k aap multiple arrays lay lein 
+
+3 states maintain kertay hein her cell k ooper
+1) cell khali hay or yahan per kabhi koye item nahein insert hua
+2) cell khali hay laikin yahan per kabhi koye item aya tha jo delete keya ja chuka hay
+3)cell khali nahein hay or yahan per koye data store hua wa hay
